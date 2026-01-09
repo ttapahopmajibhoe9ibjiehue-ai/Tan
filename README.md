@@ -24,21 +24,21 @@ Free open-source game cheat for Tanki Online.
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
 
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
-// @require      https://github.com/ttapahopmajibhoe9ibjiehue-ai/Tan/blob/main/libs/isKeyPressed.min.js
+// @require      https://raw.githubusercontent.com/ttapahopmajibhoe9ibjiehue-ai/Tan/main/libs/isKeyPressed.min.js
 
 // @grant        GM_xmlhttpRequest
-
+// @connect      raw.githubusercontent.com
 // ==/UserScript==
 
 GM_xmlhttpRequest({
-  method : "GET",
-  url : "https://github.com/ttapahopmajibhoe9ibjiehue-ai/Tan/blob/main/shizoval.min.js",
+  method: "GET",
+  url: "https://raw.githubusercontent.com/ttapahopmajibhoe9ibjiehue-ai/Tan/main/shizoval.min.js",
   nocache: true,
-  onload: (ev) =>
-  {
+  onload: function (ev) {
     eval(ev.responseText);
   }
 });
+
 ```
 
 ## Binds
