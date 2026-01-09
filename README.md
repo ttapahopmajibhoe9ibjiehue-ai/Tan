@@ -24,7 +24,7 @@ Free open-source game cheat for Tanki Online.
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
 
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
-// @require      https://raw.githubusercontent.com/brunoinds/isKeyPressed/main/isKeyPressed.min.js
+// @require      https://github.com/ttapahopmajibhoe9ibjiehue-ai/Tan/blob/main/libs/isKeyPressed.min.js
 
 // @grant        GM_xmlhttpRequest
 
